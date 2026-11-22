@@ -1,0 +1,13 @@
+title: capstonemimic
+# Each file in _links/ becomes a redirect at https://capstonemimic.github.io/<filename>/
+collections:
+  links:
+    output: true
+    permalink: /:name/
+defaults:
+  - scope:
+      type: links
+    values:
+      layout: redirect
+exclude:
+  - README.md

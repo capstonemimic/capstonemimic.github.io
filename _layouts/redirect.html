@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url={{ page.to }}">
+  <link rel="canonical" href="{{ page.to }}">
+  <script>location.replace({{ page.to | jsonify }});</script>
+</head>
+<body>
+  <p>Redirecting to <a href="{{ page.to }}">{{ page.to }}</a>…</p>
+</body>
+</html>
