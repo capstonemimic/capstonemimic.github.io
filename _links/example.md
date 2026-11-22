@@ -1,3 +1,3 @@
 ---
-to: https://openreview.net/
+to: https://example.org/
 ---
